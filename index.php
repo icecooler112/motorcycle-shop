@@ -12,6 +12,7 @@ if(isset($_SESSION["USER_ID"])){
     <title>Admin</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="include/libs/css/navbar.css">
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
@@ -26,36 +27,26 @@ if(isset($_SESSION["USER_ID"])){
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
-        <div class="container">
-        <a class="navbar-brand text-white" >Admin Menagement</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                         <?php echo $_SESSION["first_name"];?> <?php echo $_SESSION["last_name"];?>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#LogoutModal">Logout</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-
-   
-
-
+<ul style="width:220px;">
+    <h3 class="text-white text-center mt-3 pb-3">
+  </div>
+            
+        <li class="nav-item dropdown">
+          <p class="nav-link dropdown" href="">
+          <h5><?php echo $_SESSION["first_name"];?> <?php echo $_SESSION["last_name"];?></h5>
+          </p>
+        </li>
+    </h3>
+  <li><a class="active text-white text-center" href=""><i class="">Dashboard</i> </a></li>
+  <li><a class="text-white text-center" href=""><i class=""> History </i></a></li>
+  <li><a href=""><i class=""></i> </a></li>
+  <li><a href=""> <i class=""></i> </a></li>
+  <li><a href=""> <i class=" "></i> </a></li>
+  <li><a href=""><i class=""></i></a></li>
+  <hr width=auto size=3>
+  <li><a class="nav-item text-white text-center" href="" data-toggle="modal" data-target="#LogoutModal" ><i class=""></i>Logout</a></li>
+  </ul>
+      </div>
 <div id="LogoutModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
