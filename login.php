@@ -38,16 +38,6 @@
           <?php } ?>
         <?php } ?> 
 
-        <div title="" style="width:99px;display:inline-block;position:relative;cursor:pointer;" class="text-center  formlogin card-user-choose d-none mx-auto">
-          <button type="button" class="close" aria-label="Close" style="position: absolute; right: 14px;" data-toggle="modal" data-target="#deleteModal">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="account_info_choose" >
-          <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="" width="75" class="img-fluid rounded-circle img-thumbnail">
-            
-          </div>
-          <p style="display:inline-block;margin: 0;"></p> <span class="small notme text-danger">Not Me?</span>
-        </div>  
 
           <div class="form-group username">
             <div class="input-group">
