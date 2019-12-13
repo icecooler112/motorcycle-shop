@@ -38,26 +38,26 @@ if(isset($_SESSION["USER_ID"])){
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active  ">
-            <a class="nav-link" href="./dashboard.html">
+          <li class="nav-item ">
+            <a class="nav-link" href="dashboard.php">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./user.html">
+            <a class="nav-link" href="user_list.php">
               <i class="material-icons">person</i>
               <p>User list</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
+          <li class="nav-item active ">
+            <a class="nav-link" href="rp_history.php">
               <i class="material-icons">content_paste</i>
               <p>Repair history</p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="./typography.html">
+            <a class="nav-link" href="product.php">
               <i class="material-icons">library_books</i>
               <p>Products</p>
             </a>
@@ -92,53 +92,6 @@ if(isset($_SESSION["USER_ID"])){
     </div>
   </div>
 </div>
-
-
-
-
-
-
-<!-- <ul style="width:220px;">
-    <h3 class="text-white text-center mt-3 pb-3">
-  </div>
-            
-        <li class="nav-item dropdown">
-          <p class="nav-link dropdown" href="">
-          <h5><?php echo $_SESSION["first_name"];?> <?php echo $_SESSION["last_name"];?></h5>
-          </p>
-        </li>
-    </h3>
-  <li><a class="active text-white text-center" href=""><i class="">Dashboard</i> </a></li>
-  <li><a class="text-white text-center" href=""><i class=""> History </i></a></li>
-  <li><a href=""><i class=""></i> </a></li>
-  <li><a href=""> <i class=""></i> </a></li>
-  <li><a href=""> <i class=" "></i> </a></li>
-  <li><a href=""><i class=""></i></a></li>
-  <hr width=auto size=3>
-  <li><a class="nav-item text-white text-center" href="" data-toggle="modal" data-target="#LogoutModal" ><i class=""></i>Logout</a></li>
-  </ul>
-      </div>
-<div id="LogoutModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Logout ?</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body text-center">
-          <h1 style="font-size:5.5rem;"><i class="fa fa-sign-out text-danger" aria-hidden="true"></i></h1>
-          <p>Are you sure you want to log-out?</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <a href="logout.php" class="btn btn-danger">Logout</a>
-      </div>
-    </div>
-  </div>
-</div> -->
-
 </body>
 
 </html>

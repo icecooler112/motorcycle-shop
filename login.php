@@ -13,13 +13,7 @@
 
 </head>
 
-  <!-- body {
-  background-color: #e9ecef; -->
-    <!-- background-color: #4e73df; -->
-    <!-- background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #4e73df), to(#224abe)); -->
-    <!-- background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%); -->
-    <!-- background-size: cover; -->
-  <!-- } -->
+
 <body>
 
   <div class="login-box">
@@ -76,51 +70,18 @@
             <span id="error-password" class="text-danger small"></span>
           </div>
           <div class="form-group">
-            <div class="custom-control custom-checkbox my-1 mr-sm-2">
-              <input type="checkbox" name="remember" value="1" class="custom-control-input" id="remember">
-              <label class="custom-control-label small" for="remember">Remember Me</label>
-            </div>
-          </div>
-          <div class="form-group">
             <button type="submit" class="btn btn-primary btn-block btn-login">Login</button>
             <button class="btn btn-primary btn-block d-none btn-loading" type="button" disabled>
               <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
               Login...
             </button>
           </div>
-          <!-- <div class="text-center">
-            <a href="#" class="small">forgot password?</a>
-          </div> -->
-          <!-- <div class="text-center">
-            <a href="register.php" class="small">Register</a>
-          </div> -->
         </form>
 
       </div>
 
     </div>
   </div>
-
-  <div id="deleteModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Delete ? <span class="account_id"></span></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body text-center">
-          <h1 style="font-size:5.5rem;"><i class="fa fa-exclamation-circle text-danger" aria-hidden="true"></i></h1>
-          <p>Are you sure you want to delete?</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <a href="#" class="btn btn-danger btn-delete">Delete</a>
-        </div>
-      </div>
-    </div>
-  </div>         
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

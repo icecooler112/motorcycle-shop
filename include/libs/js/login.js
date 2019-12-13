@@ -65,8 +65,6 @@ $('.account_info').on("click",function(){
       });
     })
     var modal = $(this);
-    // modal.find('.account_id').text('account ' + key);
-    // modal.find('.modal-body input').val(recipient)
   });
   function check_username(){
     var username = $('#username').val();
