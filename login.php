@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="include/libs/css/login.css">
 
-</head>
-
-
+  
 <body>
 
   <div class="login-box">
@@ -48,6 +46,8 @@
               </div>
             </div>
             <span id="error-username" class="text-danger small"></span>
+            <div class="swal2-icon swal2-success swal2-animate-success-icon" style="display: flex;">
+
           </div>
           <div class="form-group">
             <div class="input-group">
@@ -72,6 +72,8 @@
 
     </div>
   </div>
+ 
+
 
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>

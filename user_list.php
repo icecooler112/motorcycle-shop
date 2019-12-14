@@ -32,8 +32,8 @@ if(isset($_SESSION["USER_ID"])){
   <div class="wrapper ">
     <div class="sidebar" data-color="purple" data-background-color="white" data-image="image/sidebar-4.jpg">
       
-      <div class="logo">
-      <center><h5><?php echo $_SESSION["first_name"];?> <?php echo $_SESSION["last_name"];?></h5></center>
+      <div class="name">
+      <center><h6>Name : <?php echo $_SESSION["first_name"];?> <?php echo $_SESSION["last_name"];?></h6></center>
         </a>
       </div>
       <div class="sidebar-wrapper">
