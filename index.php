@@ -53,7 +53,7 @@ if(isset($_SESSION["USER_ID"])){
 
             <ul class="list-unstyled components">
                 <li class="active">
-                    <a href="index.php">dashboard</a>
+                    <a href="index.php">Dashboard</a>
                 </li>
                 <li>
                     <a href="user_list.php">User List</a>
