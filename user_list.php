@@ -1,5 +1,4 @@
 <?php session_start();
-header ("userid");
 ?>
 <!DOCTYPE html>
 
@@ -27,7 +26,9 @@ header ("userid");
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
+            <?php if(isset($_SESSION['id'])) { ?>
             <center><h5><?php echo $_SESSION["First_Name"];?> <?php echo $_SESSION["Last_Name"];?></h5></center>
+            <?php }else header("location:login.php"); ?>
             </div>
 
             <ul class="list-unstyled components">
